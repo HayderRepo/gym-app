@@ -33,7 +33,7 @@ const ExerciseCard = ({ exercise }) => (
       ml="21px"
       color="#000"
       fontWeight="bold"
-      sx={{ fontSize: { lg: "24px", xs: "20px" } }}
+      fontSize="22px"
       mt="11px"
       pb="10px"
       textTransform="capitalize">
