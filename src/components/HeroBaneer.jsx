@@ -17,28 +17,32 @@ const HeroBaneer = () => {
       <Typography
         fontWeight={700}
         sx={{ fontSize: { lg: "44px", xs: "40px" } }}
-        mb='23px' mt='30px'>
+        mb="23px"
+        mt="30px">
         Sweat, Smile <br />
         and Repeat
       </Typography>
-      <Typography fontSize="22px" LineHeight="35px" mb={6}>
+      <Typography fontSize="22px" lineHeight="35px" mb={6}>
         check out the most effective exercises
       </Typography>
-      <Button variant="contained" color="error" href="#exercises" sx={{backgroundColor:'#ff2625' ,padding:'10px'}} >
+      <Button
+        variant="contained"
+        color="error"
+        href="#exercises"
+        sx={{ backgroundColor: "#ff2625", padding: "10px" }}>
         explore Exercises
       </Button>
       <Typography
-      fontWeight={600}
-      color="#ff2625"
-      sx={{
-        opacity:0.1,
-        display:{lg:'block',xs:'none'}
-      }}
-      fontSize="200px"
-      >
+        fontWeight={600}
+        color="#ff2625"
+        sx={{
+          opacity: 0.1,
+          display: { lg: "block", xs: "none" },
+        }}
+        fontSize="200px">
         Exercise
       </Typography>
-      <img src={HeroBannerImage} alt='banner' className="hero-banner-img "/ >
+      <img src={HeroBannerImage} alt="banner" className="hero-banner-img " />
     </Box>
   );
 };
